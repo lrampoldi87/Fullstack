@@ -1,0 +1,53 @@
+body {
+    background-color: #eee
+}
+
+.boxred {
+    padding: 10px 35px;
+    margin-left: 20px;
+    width: 250px;
+    height: 15px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.3);
+    border-left-style: solid;
+    border-left-color: red;
+}
+
+.boxred:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.boxgreen {
+    padding: 10px 35px;
+    margin-left: 20px;
+    width: 250px;
+    height: 15px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.3);
+    border-left-style: solid;
+    border-left-color: green;
+}
+
+.boxgreen:hover {
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.6);
+}
+
+.boxblue {
+    padding: 10px 35px;
+    margin-left: 20px;
+    width: 250px;
+    height: 15px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.3);
+    border-left-style: solid;
+    border-left-color: blue;
+}
+
+.boxblue:hover {
+   background-color: rgb(152, 175, 252);
+}
+
+
